@@ -1,0 +1,49 @@
+                <ul class="bxslider" data-bx-slider="mode: 'horizontal', pager: false, controls: true, minSlides: 1, maxSlides:4, slideWidth: 350, slideMargin:10, infiniteLoop: false, hideControlOnEnd: true">
+                    
+                    <li data-ng-repeat="obj in items track by $index" data-notify-when-repeat-finished>
+                        <div class="item">
+                            <img data-ng-src="http://lorempixel.com/400/200/sports/{{$index + 1}}/" />
+                        </div>
+                    </li>
+                    
+                </ul>
+                
+                
+                
+                
+                            <div data-ng-controller="BoxController">
+                <ul class="bxslider" data-bx-slider="mode: 'horizontal', pager: false, controls: true, minSlides: 1, maxSlides:4, slideWidth: 350, slideMargin:10, infiniteLoop: false, hideControlOnEnd: true">
+                    
+                    <li data-ng-repeat="obj in items track by $index" data-notify-when-repeat-finished>
+                        <div class="item">
+                            <img data-ng-src="http://lorempixel.com/400/200/sports/{{$index + 1}}/" />
+                        </div>
+                    </li>
+                    
+                </ul>
+                
+           <section id="Data" class="wrapper style2 align-center">
+				<div class="container">
+						<h2>Reference & data report</h2>
+        					<ul class="actions">
+								<li><a href="/data/Rental%20Appraisal.pdf" class="button icon fa-download">Renting report</a></li>
+                                <li><a>900 NZD if fully furnished / 650~700 NZD per month without furniture  </a></li>
+                            </ul>
+        					<ul class="actions">    
+								<li><a href="#" class="button icon fa-download">Body corporate report</a></li>
+                                <li><a> Full report on body corporate requirement </a></li>
+							</ul>
+        					<ul class="actions">
+								<li><a href="#" class="button icon fa-download">LIM report</a></li> 
+								<li> Land legal title report from City council of Wellington</li>
+							</ul> 
+        					<ul class="actions">    
+								<li><a href="#" class="button icon fa-download">Builder report</a></li>
+                                <li><a> Builder report </a></li>
+							</ul>  
+        					<ul class="actions">    
+								<li><a href="#" class="button icon fa-download">Earthquake strengthening report</a></li>
+                                <li><a> Earthquake strengthening report </a></li>
+							</ul>
+                </div>
+            </section>                
