@@ -73,7 +73,7 @@
 	$(function() {
         $('.bxslider').bxSlider({
             slideWidth: 400,
-            minSlides: 2,
+            minSlides: 1,
             maxSlides: 3,
             slideMargin: 1,
             infiniteLoop: false,
