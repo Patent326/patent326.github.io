@@ -72,7 +72,7 @@
 
 	$(function() {
         $('.bxslider').bxSlider({
-            slideWidth: 400,
+            slideWidth: 380,
             maxSlides: 3,
             slideMargin: 1,
             infiniteLoop: false,
