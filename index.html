@@ -30,13 +30,12 @@
 <!--        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
         <script src="http://bxslider.com/lib/jquery.bxslider.js"></script>
         <!-- bxSlider CSS file -->
-        <style>
 
-        </style>
-        
+        <link rel="stylesheet" href="css/style-pop.css" />
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
+            <link rel="stylesheet" href="css/style-pop.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
@@ -255,17 +254,48 @@ It is an ideal place for your family.   <br><br> It is also profitable for inves
 							
 						</section>
 					</div>
+                <script>
+                    function deselect(e) {
+                      $('.pop').slideFadeToggle(function() {
+                        e.removeClass('selected');
+                      });    
+                    }
+
+                    $(function() {
+                      $('#contact').on('click', function() {
+                        if($(this).hasClass('selected')) {
+                          deselect($(this));               
+                        } else {
+                          $(this).addClass('selected');
+                          $('.pop').slideFadeToggle();
+                        }
+                        return false;
+                      });
+
+                      $('.close').on('click', function() {
+                        deselect($('#contact'));
+                        return false;
+                      });
+                    });
+
+                    $.fn.slideFadeToggle = function(easing, callback) {
+                      return this.animate({ opacity: 'toggle', height: 'toggle' }, 'fast', easing, callback);
+                    };
+                </script>
 					<footer>
 						<ul class="actions">
-							<li>
-								<a href="#" class="button alt big">Learn More</a>
-							</li>
+								<a id="contact" class="button alt big">Comment/ Close comment</a>
+                            <div class="messagepop pop">
+                            <iframe src="https://docs.google.com/forms/d/10KZA9lZt8NpX_71-TOOuRic-oRhYgxaXSJWZsUnHF_8/viewform?embedded=true" width="520" height="560" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                    </div>
 						</ul>
+                    
 					</footer>
 				</div>
 			</section>
-        
- 
+    
+
+    
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
@@ -316,6 +346,7 @@ It is an ideal place for your family.   <br><br> It is also profitable for inves
 							</ul>
 						</section>
 					</div>
+
 					<ul class="copyright">
 						<li>ABC </li>
 						<li>ABC </li>
