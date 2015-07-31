@@ -47,3 +47,52 @@
 							</ul>
                 </div>
             </section>                
+            
+            
+            
+<div class="row fontawesome-icon-list align-left">
+<div class="fa-hover col-xs-12 col-md-4 col-sm-4"><i class="icon fa-thumbs-up"></i> Over 100m2 of Indoor living space</div>
+<div class="fa-hover col-xs-12 col-md-4 col-sm-4"><i class="icon fa-thumbs-up"></i> In a building of architect award </div>
+<div class="fa-hover col-xs-12 col-md-4 col-sm-4"><i class="icon fa-thumbs-up"></i> Open plan living, double floors </div>
+</div>
+<div class="row fontawesome-icon-list align-left">
+<div class="fa-hover col-xs-12 col-md-5 col-sm-4"><i class="icon fa-thumbs-up"></i> Secure access and a tandem car park</div>
+<div class="fa-hover col-xs-12 col-md-5 col-sm-4"><i class="icon fa-thumbs-up"></i> Two balconies for indoor rest/seaview </div>
+<div class="fa-hover col-xs-12 col-md-5 col-sm-4"><i class="icon fa-thumbs-up"></i> High spec contemporary living </div>
+</div>                  
+
+Secure access and a tandem car park
+Storage for bikes and kayaks
+Dog park with tennis court and beach across the road.
+Leisure Park off beach plus a ground-floor cafe     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Magnific Popup: image zoom effect</h2>
+
+
+
+
+<a href="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Anthochaera_chrysoptera.jpg/800px-Anthochaera_chrysoptera.jpg" class="without-caption image-link">
+  <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Anthochaera_chrysoptera.jpg/800px-Anthochaera_chrysoptera.jpg" width="172" height="115" />  
+</a>
+<br/>
+<a href="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Water_Dolphin.jpg/800px-Water_Dolphin.jpg" data-source="http://commons.wikimedia.org/wiki/Commons:Picture_of_the_day" class="with-caption image-link" title="The caption">
+  <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Water_Dolphin.jpg/800px-Water_Dolphin.jpg" width="172" height="105" />  
+</a>
+
+<br/>
+More info in <a href="http://dimsemenov.com/plugins/magnific-popup/documentation.html#zoom_effect">popup documentation</a> or <a href="http://dimsemenov.com/plugins/magnific-popup/">demo website</a>, or take a look at code of zoom effect module on <a href="https://github.com/dimsemenov/Magnific-Popup/blob/master/src/js/zoom.js">GitHub</a>.
+
