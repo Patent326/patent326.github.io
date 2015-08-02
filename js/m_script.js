@@ -14,8 +14,8 @@ $(document).ready( function() {
       itemSelector: '.grid-item',
       percentPosition: true,
       columnWidth: '.grid-sizer',
-      columnWidth: 120,
-      gutter: 3
+      columnWidth: 100,
+      gutter: 4
     }); 
   });
 
