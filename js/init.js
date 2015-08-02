@@ -70,18 +70,18 @@
 		}
 	});
 
-	$(function() {
-        $('.bxslider').bxSlider({
-            slideWidth: 380,
-            maxSlides: 3,
-            slideMargin: 1,
-            infiniteLoop: false,
-            hideControlOnEnd: true,
-            adaptiveHeight: true
-          });
-
-		// ...
-
-	});
+//	$(function() {
+//        $('.bxslider').bxSlider({
+//            slideWidth: 380,
+//            maxSlides: 3,
+//            slideMargin: 1,
+//            infiniteLoop: false,
+//            hideControlOnEnd: true,
+//            adaptiveHeight: true
+//          });
+//
+//		// ...
+//
+//	});
 
 })(jQuery);
